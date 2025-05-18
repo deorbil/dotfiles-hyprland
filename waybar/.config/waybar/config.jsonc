@@ -68,7 +68,7 @@
     "on-click": "blueman-manager"
   },
   "clock": {
-    "format": "{:%I:%M %p}",
+    "format": "󰥔 {:%I:%M %p}",
     "tooltip-format": "{:%B %d, %Y}"
   },
   "custom/logo": {
