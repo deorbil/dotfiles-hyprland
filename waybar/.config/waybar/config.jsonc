@@ -2,7 +2,7 @@
   "margin-left": 10,
   "margin-right": 10,
   "margin-top": 10,
-  "spacing": 10,
+  "spacing": 5,
   // Choose the order of the modules
   "modules-left": [
     "custom/logo",
