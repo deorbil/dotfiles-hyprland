@@ -6,10 +6,8 @@
   // Choose the order of the modules
   "modules-left": [
     "custom/logo",
+    "hyprland/workspaces",
     "tray"
-  ],
-  "modules-center": [
-    "hyprland/workspaces"
   ],
   "modules-right": [
     "bluetooth",
