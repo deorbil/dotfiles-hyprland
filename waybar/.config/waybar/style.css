@@ -7,6 +7,12 @@ window#waybar {
   color: #ffffff;
 }
 
+tooltip {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
+  border-radius: 10px;
+}
+
 #backlight {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
