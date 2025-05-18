@@ -15,8 +15,8 @@
     "bluetooth",
     "network",
     "pulseaudio",
-    "battery",
     "backlight",
+    "battery",
     "clock"
   ],
   // Modules configuration
