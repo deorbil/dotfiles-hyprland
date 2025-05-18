@@ -61,16 +61,19 @@
     "tooltip": false
   },
   "bluetooth": {
-    "format": "",
+    "format": "󰂲",
     "format-connected": "󰂱 {device_alias}",
-    "format-on": "󰂯"
+    "format-no-controller": "",
+    "format-on": "󰂯",
+    "on-click": "blueman-manager"
   },
   "clock": {
     "format": "{:%I:%M %p}",
     "tooltip-format": "{:%B %d, %Y}"
   },
   "custom/logo": {
-    "format": "󰣇"
+    "format": "󰣇",
+    "tooltip": false
   },
   "hyprland/workspaces": {
     "persistent-workspaces": {
@@ -78,7 +81,7 @@
     }
   },
   "network": {
-    "format-disconnected": "󰖪",
+    "format-disconnected": "󰤭",
     "format-ethernet": "",
     "format-icons": [
       "󰤟",
@@ -87,6 +90,7 @@
       "󰤨"
     ],
     "format-wifi": "{icon} {essid}",
+    "on-click": "pkill nm-applet || nm-applet --indicator",
     "tooltip": false
   },
   "pulseaudio": {
