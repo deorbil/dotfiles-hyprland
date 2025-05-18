@@ -1,0 +1,77 @@
+configuration {
+  drun-display-format: "{name}";
+  font: "Adwaita Sans 11";
+  show-icons: true;
+}
+
+window {
+  background-color: #000000;
+  border: 2px;
+  border-color: #ec2e2e;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+mainbox {
+  background-color: transparent;
+  color: inherit;
+  padding: 20px;
+}
+
+inputbar {
+  background-color: transparent;
+  children: [textbox-prompt-colon, entry];
+  color: inherit;
+  cursor: text;
+  padding: 15px;
+  spacing: 10px;
+}
+
+textbox-prompt-colon {
+  background-color: transparent;
+  color: inherit;
+  cursor: inherit;
+  expand: false;
+  str: "";
+}
+
+entry {
+  background-color: transparent;
+  color: inherit;
+  cursor: inherit;
+}
+
+listview {
+  background-color: transparent;
+  color: inherit;
+  lines: 8;
+  padding: 20px;
+  spacing: 10px;
+}
+
+element {
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  spacing: 15px;
+}
+
+element.selected {
+  background-color: #ec2e2e;
+}
+
+element-icon {
+  background-color: transparent;
+  color: inherit;
+  cursor: inherit;
+  size: 32px;
+}
+
+element-text {
+  background-color: transparent;
+  color: inherit;
+  cursor: inherit;
+  vertical-align: 0.5;
+}
