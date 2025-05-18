@@ -2,9 +2,73 @@
   font-family: "Adwaita Sans", "CaskaydiaCove Nerd Font Propo";
 }
 
-#waybar {
+window#waybar {
   background: transparent;
   color: #ffffff;
+}
+
+#backlight {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#battery {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#bluetooth {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#clock {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#custom-logo {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#custom-notification {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#custom-power {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#custom-power:hover {
+  background-color: #ec2e2e;
+}
+
+#network {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#pulseaudio {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#tray {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 0 10px;
 }
 
 #workspaces {
@@ -20,24 +84,5 @@
 }
 
 #workspaces button.active {
-  background-color: #ec2e2e;
-}
-
-#backlight,
-#custom-logo,
-#custom-notification,
-#custom-power,
-#battery,
-#bluetooth,
-#clock,
-#network,
-#pulseaudio,
-#tray {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  padding: 0 10px;
-}
-
-#custom-power:hover {
   background-color: #ec2e2e;
 }
