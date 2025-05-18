@@ -17,7 +17,8 @@
     "pulseaudio",
     "backlight",
     "battery",
-    "clock"
+    "clock",
+    "custom/notification"
   ],
   // Modules configuration
   "backlight": {
@@ -73,6 +74,11 @@
   },
   "custom/logo": {
     "format": "󰣇",
+    "tooltip": false
+  },
+  "custom/notification": {
+    "format": "󰂚",
+    "on-click": "swaync-client -t -sw",
     "tooltip": false
   },
   "hyprland/workspaces": {
