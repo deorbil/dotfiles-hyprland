@@ -26,6 +26,7 @@
 #backlight,
 #custom-logo,
 #custom-notification,
+#custom-power,
 #battery,
 #bluetooth,
 #clock,
@@ -35,4 +36,8 @@
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   padding: 0 10px;
+}
+
+#custom-power:hover {
+  background-color: #ec2e2e;
 }

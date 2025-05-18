@@ -18,7 +18,8 @@
     "backlight",
     "battery",
     "clock",
-    "custom/notification"
+    "custom/notification",
+    "custom/power"
   ],
   // Modules configuration
   "backlight": {
@@ -79,6 +80,11 @@
   "custom/notification": {
     "format": "󰂚",
     "on-click": "swaync-client -t -sw",
+    "tooltip": false
+  },
+  "custom/power": {
+    "format": "",
+    "on-click": "wlogout",
     "tooltip": false
   },
   "hyprland/workspaces": {
