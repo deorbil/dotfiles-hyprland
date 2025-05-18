@@ -65,7 +65,8 @@
     "format-connected": "󰂱 {device_alias}",
     "format-no-controller": "",
     "format-on": "󰂯",
-    "on-click": "blueman-manager"
+    "on-click": "blueman-manager",
+    "on-click-right": "pkill blueman-applet || blueman-applet"
   },
   "clock": {
     "format": "󰥔 {:%I:%M %p}",
@@ -100,7 +101,8 @@
       "󰤨"
     ],
     "format-wifi": "{icon} {essid}",
-    "on-click": "pkill nm-applet || nm-applet --indicator",
+    "on-click": "nm-connection-editor",
+    "on-click-right": "pkill nm-applet || nm-applet --indicator",
     "tooltip": false
   },
   "pulseaudio": {
