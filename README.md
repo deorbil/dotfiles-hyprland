@@ -4,11 +4,11 @@
 
 - blueman
 - brightnessctl
+- grimblast (AUR)
 - hypridle
 - hyprland
 - hyprpaper
 - hyprpicker
-- hyprshot (AUR)
 - network-manager-applet
 - pavucontrol
 - rofi-wayland
