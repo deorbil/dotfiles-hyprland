@@ -1,5 +1,8 @@
 # dotfiles-hyprland
 
+> [!WARNING]
+> This branch is no longer maintained
+
 ## Dependencies
 
 - blueman
